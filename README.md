@@ -4,4 +4,4 @@ Tech Assignment: HTML, CSS, and JavaScript - Pravaah Consulting
 <br>
 #Added Bootstrap css & js library.
 <br>
-#lined Css & js file to Html file.
+#linked Css & js file to Html file.
