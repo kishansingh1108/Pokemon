@@ -17,3 +17,30 @@
     font-size: 8rem;
     color: rgba(0, 0, 255, 0.607);
 }
+
+aside{
+    width: 20%;
+    margin-right: 100px;
+    float: left;
+    height: 35rem;
+}
+
+.dropdown-1, .dropdown-2, select{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.dropdown-2{
+    margin-top: 40%;
+}
+
+.pokemon-card{
+    border: 2px solid black;
+    font-size: large;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+
+}
