@@ -28,11 +28,11 @@ async function fetchPokemonData(cardNum) {
       if (stat1 > stat2) {
         document.getElementById(`${stat}-1`).style.color = "green";
         document.getElementById(`${stat}-2`).style.color = "red";
-        resultText += `${stat.toUpperCase()}: is stronger!<br>`;
+        resultText += `${stat.toUpperCase()}: First is stronger!<br>`;
       } else if (stat1 < stat2) {
         document.getElementById(`${stat}-2`).style.color = "green";
         document.getElementById(`${stat}-1`).style.color = "red";
-        resultText += `${stat.toUpperCase()}:  is stronger!<br>`;
+        resultText += `${stat.toUpperCase()}: Second is stronger!<br>`;
       } else {
         resultText += `${stat.toUpperCase()}: Both are equal!<br>`;
       }
